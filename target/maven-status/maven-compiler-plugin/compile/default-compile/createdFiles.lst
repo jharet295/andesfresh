@@ -1,0 +1,8 @@
+com/andesfresh/portal/repositorio/ProductoRepository.class
+com/andesfresh/portal/servicio/ProductoService.class
+com/andesfresh/portal/modelo/Producto.class
+com/andesfresh/portal/excepcion/ProductoNoEncontradoException.class
+com/andesfresh/portal/controlador/ProductoController.class
+com/andesfresh/portal/config/ProductoDataLoader.class
+com/andesfresh/portal/PortalApplication.class
+com/andesfresh/portal/controlador/InicioController.class

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head><meta charset="UTF-8"><title>Productos</title>
+<link rel="stylesheet" th:href="@{/css/estilos.css}"></head>
+<body>
+<div th:replace="~{fragmentos :: menu}"></div>
+<main>
+  <h1>Catálogo de productos</h1>
+  <table>
+    <tr><th>Código</th><th>Producto</th><th>Precio (S/)</th><th>Acciones</th></tr>
+    <tr th:each="p : ${productos}">
+      <td th:text="${p.id}">1</td>
+      <td th:text="${p.nombre}">Palta</td>
+      <td th:text="${p.precio}">0.00</td>
+      <td>
+        <a th:href="@{/productos/{id}(id=${p.id})}">Ver</a>
+        <form th:action="@{/productos/{id}/eliminar(id=${p.id})}" method="post" class="en-linea">
+          <button type="submit" class="peligro">Eliminar</button>
+        </form>
+      </td>
+    </tr>
+  </table>
+</main>
+</body>
+</html>

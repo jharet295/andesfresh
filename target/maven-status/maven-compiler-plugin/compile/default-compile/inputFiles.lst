@@ -1,0 +1,8 @@
+/home/codespace/andesfresh/src/main/java/com/andesfresh/portal/PortalApplication.java
+/home/codespace/andesfresh/src/main/java/com/andesfresh/portal/Producto.java
+/home/codespace/andesfresh/src/main/java/com/andesfresh/portal/config/ProductoDataLoader.java
+/home/codespace/andesfresh/src/main/java/com/andesfresh/portal/controlador/InicioController.java
+/home/codespace/andesfresh/src/main/java/com/andesfresh/portal/controlador/ProductoController.java
+/home/codespace/andesfresh/src/main/java/com/andesfresh/portal/excepcion/ProductoNoEncontradoException.java
+/home/codespace/andesfresh/src/main/java/com/andesfresh/portal/repositorio/ProductoRepository.java
+/home/codespace/andesfresh/src/main/java/com/andesfresh/portal/servicio/ProductoService.java
